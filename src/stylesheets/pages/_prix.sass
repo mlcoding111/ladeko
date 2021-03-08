@@ -1,0 +1,75 @@
+#prix-header
+    background: #F3E8E8
+    min-height: 50vh
+    display: flex
+    justify-content: center
+    align-items: center
+    font-weight: 400
+
+#prix-row:before
+    content: " "
+    height: 20px
+    background-color: #333333
+    width: 100%
+    display: block
+    margin: 0 auto
+    margin-bottom: 5rem
+    margin-top: 3rem
+
+.prix-card-wrapper .card h3:after
+    content: " "
+    height: 5px
+    background-color: #333333
+    width: 100%
+    display: block
+    margin: 2rem auto
+
+.prix-wrapper td
+    border: 1px solid black
+    font-size: 1rem
+
+.prix-wrapper td:first-child
+    border-left: 0px
+
+.prix-wrapper th:first-child
+    border-right: 1px solid black
+
+.prix-wrapper th:nth-child(2)
+    border-right: 1px solid black
+
+.prix-wrapper td:nth-child(3)
+    border: none
+    width: 5%
+    padding: .2rem
+
+.prix-wrapper td
+    border-bottom: 0px
+    padding-top: 1rem
+
+table
+    border-spacing: 0.5rem
+    border-collapse: collapse
+
+.prix-wrapper th
+    border-bottom: 1px solid black
+    padding: 1rem
+
+.prix-wrapper .card
+    min-height: 90%
+    border: none
+
+.prix-wrapper .card img
+    border-radius: 250px
+    width: 100%
+
+.prix-wrapper .card h3
+    font-weight: 700
+    color: #B56969
+
+@media only screen and(max-width: 600px)
+    .prix-wrapper table
+        font-size: .7rem
+
+@media only screen and(max-width: 768px)
+    .prix-wrapper table th
+        font-size: .7rem

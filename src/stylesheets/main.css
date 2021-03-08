@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-bg {
+  background-color: #333333 !important;
+  transition: all 0.5s ease-in-out;
+  top: 0;
+  position: sticky;
+  z-index: 999;
+}
+
+.navbar-nav a {
+  margin: 1rem 2.2rem;
+  color: white;
+  text-align: center;
+}
+
+.acceuil-wrapper header {
+  background: url("../../img/Acceuil/acceuil-header.jpg");
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.acceuil-wrapper header img {
+  width: 40%;
+}
+
+.acceuil-wrapper {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.acceuil:after {
+  content: " ";
+  height: 20px;
+  background-color: #333333;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.display-wrapper {
+  flex: 0 0 33.3333333%;
+  max-width: 33.3333333%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+}
+
+.display-wrapper button {
+  justify-content: flex-end;
+}
+
+#display img {
+  border-radius: 300px;
+}
+
+#display h3 {
+  font-weight: 700;
+  color: #B56969;
+}
+
+#display h3:after {
+  content: " ";
+  height: 5px;
+  background-color: #333333;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+}
+
+#display p {
+  font-weight: 400;
+}
+
+#display .card {
+  min-height: 100%;
+  border: none;
+}
+
+#prix-header {
+  background: #F3E8E8;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+#prix-row:before {
+  content: " ";
+  height: 20px;
+  background-color: #333333;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+
+.prix-wrapper td {
+  border: 1px solid black;
+}
+
+.prix-wrapper td:first-child {
+  border-left: 0px;
+}
+
+.prix-wrapper th:first-child {
+  border-right: 1px solid black;
+}
+
+.prix-wrapper th:nth-child(2) {
+  border-right: 1px solid black;
+}
+
+.prix-wrapper td:nth-child(3) {
+  border: none;
+  width: 10%;
+  padding: 1rem;
+}
+
+.prix-wrapper td {
+  border-bottom: 0px;
+  padding-top: 1rem;
+}
+
+table {
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+}
+
+.prix-wrapper th {
+  border-bottom: 1px solid black;
+  padding: 1rem;
+}
+
+.prix-wrapper .card {
+  min-height: 100%;
+  border: none;
+}
+
+.prix-wrapper .card img {
+  border-radius: 300px;
+}
+
+.prix-wrapper .card h3 {
+  font-weight: 700;
+  color: #B56969;
+}
