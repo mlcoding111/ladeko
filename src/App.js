@@ -7,6 +7,7 @@ import Acceuil from './components/Acceuil/Acceuil'
 import Prix from './components/Prix/Prix'
 import Realisations from './components/Realisations/Realisations'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -22,7 +23,9 @@ function App() {
           {/* <Route component={PageNotFound} /> */}
         </Switch>
         {/* <ButtonInstallPWA/> */}
+        <Footer/> 
       </Router>
+
     </div>
   );
 
