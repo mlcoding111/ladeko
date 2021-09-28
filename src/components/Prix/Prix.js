@@ -16,11 +16,6 @@ export default function Prix() {
     // Hard code des data de la carte
 
 
-
-    function AfficherArray(){
-        return ARra;
-    }
-    
     const data = [
         {
             titre: "Prénoms sur cercle",

@@ -11,7 +11,7 @@ export default function Realisations(props) {
     //     return r.keys().map(r);
     // }
 
-    // const images = importAll(require.context('../../img/Realisation/', false, /\.(png|jpe?g|svg)$/));
+     //const imagesData = importAll(require.context('../../img/Realisation/', false, /\.(png|jpe?g|svg)$/));
 
     const imagesData = [
         {
@@ -188,7 +188,93 @@ export default function Realisations(props) {
         {
             src: require('../../img/Realisation/ARTHUR.jpg')
         },
-        
+        {
+            src: require('../../img/Realisation/NOAH.jpg')
+        },
+        {
+            src: require('../../img/Realisation/ELRIK.jpg')
+        },
+        {
+            src: require('../../img/Realisation/EMILIE.jpg')
+        },
+        {
+            src: require('../../img/Realisation/BASTIEN.jpg')
+        },
+        {
+            src: require('../../img/Realisation/JAKE.jpg')
+        },
+        {
+            src: require('../../img/Realisation/LOUAM.jpg')
+        },
+        {
+            src: require('../../img/Realisation/ARNAUD2.jpg')
+        },
+        {
+            src: require('../../img/Realisation/FXR.jpg')
+        },
+        {
+            src: require('../../img/Realisation/POLARIS.jpg')
+        },
+        {
+            src: require('../../img/Realisation/MOM.jpg')
+        },
+        {
+            src: require('../../img/Realisation/MAYLIANE.jpg')
+        },
+        {
+            src: require('../../img/Realisation/LEA.jpg')
+        },
+        {
+            src: require('../../img/Realisation/AMELY.jpg')
+        },
+        {
+            src: require('../../img/Realisation/ZOE.jpg')
+        },
+        {
+            src: require('../../img/Realisation/MILWAKE.jpg')
+        },
+        {
+            src: require('../../img/Realisation/NOUAN.jpg')
+        },
+        {
+            src: require('../../img/Realisation/MAELIE.jpg')
+        },
+        {
+            src: require('../../img/Realisation/JACOB3.jpg')
+        },
+        {
+            src: require('../../img/Realisation/ECHELLE.jpg')
+        },
+        {
+            src: require('../../img/Realisation/MILA.jpg')
+        },
+        {
+            src: require('../../img/Realisation/JACOB4.jpg')
+        },
+        {
+            src: require('../../img/Realisation/NOAH2.jpg')
+        },
+        {
+            src: require('../../img/Realisation/GABRIELLE.jpg')
+        },
+        {
+            src: require('../../img/Realisation/IMHERE.jpg')
+        },
+        {
+            src: require('../../img/Realisation/MAXENCE.jpg')
+        },
+        {
+            src: require('../../img/Realisation/ECHELLEAUTO.jpg')
+        },
+        {
+            src: require('../../img/Realisation/TROIS-DEUX.jpg')
+        },
+        {
+            src: require('../../img/Realisation/LUDOVICK.jpg')
+        },
+        {
+            src: require('../../img/Realisation/ALEXIS2.jpg')
+        },
     ]
 
         return (
