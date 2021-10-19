@@ -12,9 +12,9 @@ export default function Contact() {
                     <hr></hr>
 
                     {/* <h4 className="mt-5">Contactez nous !</h4> */}
-                    <p className="my-5 font-weight-bold">fanny@ladeko.ca</p>
+                    <p className="my-5 font-weight-bold">fanny_-12@hotmail.fr</p>
                     
-                    <button type="button" id="contact-btn" class="btn btn-dark"><a href = "mailto: fanny@ladeko.ca">Contactez-nous</a></button>
+                    <button type="button" id="contact-btn" class="btn btn-dark"><a href = "mailto: fanny_-12@hotmail.fr">Contactez-nous</a></button>
                    
                 </Col>
 
