@@ -84,7 +84,6 @@ export default function Navigation() {
                   eventKey="5"
                   as={Link}
                   to="/Boutique"
-                  className="disabled-link"
                 >
                   Boutique
                 </Nav.Link>

@@ -5,9 +5,10 @@ import { Redirect } from 'react-router-dom'
 import Navigation from './components/Navigation'
 import Acceuil from './components/Acceuil/Acceuil'
 import Prix from './components/Prix/Prix'
-import Realisations from './components/Realisations/Realisations'
+import Realisations from './components/Realisations/Realisations' // Change for Réalisations and also the sass(css)
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import Boutique from './components/Boutique/Boutique'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/prix" exact component={Prix} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/realisations" exact component={Realisations} />
+          <Route path="/Boutique" exact component={Boutique} />
           {/* <Route component={PageNotFound} /> */}
         </Switch>
         {/* <ButtonInstallPWA/> */}

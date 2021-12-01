@@ -10,7 +10,6 @@ export default function Contact() {
                     <h6>Vous voulez passer une commande?</h6>
                     <h6>Vous avez des questions ?</h6>
                     <hr></hr>
-
                     {/* <h4 className="mt-5">Contactez nous !</h4> */}
                     <p className="my-5 font-weight-bold">fanny_-12@hotmail.fr</p>
                     
