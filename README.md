@@ -1,6 +1,3 @@
-http://ladeko.ca/
-https://puu.sh/J3ziP/2d65ac3537.png
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
